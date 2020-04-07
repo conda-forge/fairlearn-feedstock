@@ -1,4 +1,4 @@
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: fairlearn
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/fairlearn/fairlearn/archive/v{{ version }}.tar.gz
-  sha256: 35c72bf1b022b66a21fadc7369cac58b28da1da510b4bddeef6be1d46bd205de
+  sha256: 0db37f25285ea5c0fe90cfd1efb2e0c5ae4d22ac96f78c7132bb1b2e06a13c09
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -29,7 +29,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Simple and easy fairness assessment and unfairness mitigation'
+  summary: Simple and easy fairness assessment and unfairness mitigation
 
   description: |
     The fairlearn project seeks to enable anyone involved in the development of
