@@ -5,9 +5,13 @@ Home: https://github.com/fairlearn/fairlearn
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fairlearn-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple and easy fairness assessment and unfairness mitigation
+
+Development: https://github.com/fairlearn/fairlearn
+
+Documentation: https://fairlearn.readthedocs.io/
 
 The fairlearn project seeks to enable anyone involved in the development of
 artificial intelligence (AI) systems to assess their system's fairness and
