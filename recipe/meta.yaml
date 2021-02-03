@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: fairlearn
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/fairlearn/fairlearn/archive/v{{ version }}.tar.gz
-  sha256: 417a555bc205e1f6ba2f630a7b0c850b3156d188c5f44b2fda04f6638f4b5ad0
+  sha256: 73ebd59af924ef2c3bbc236ce5601f722b0eec8fb0e74e52dd518ef854f5854c
 
 build:
   number: 0
