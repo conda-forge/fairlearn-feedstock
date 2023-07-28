@@ -1,11 +1,11 @@
-About fairlearn
-===============
+About fairlearn-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fairlearn-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fairlearn/fairlearn
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fairlearn-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple and easy fairness assessment and unfairness mitigation
 
