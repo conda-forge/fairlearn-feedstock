@@ -9,23 +9,25 @@ source:
   sha256: cd967f111ee801b7f6c98b2ac557574a4c43bbe989e25cc67f2bd35e699fd553
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - numpy >=1.24.4
     - pandas >=2.0.3
     - scikit-learn >=1.2.1
     - scipy >=1.9.3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - fairlearn
 
